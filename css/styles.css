@@ -10,12 +10,13 @@ div {
 }
 h1 {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	margin-top: 1em;
 
 }
 section {
 	position: relative;
+	font-size: 1.5em;
 	top: 30px;
 	border: 1px solid black;
 	padding: 2.2em .6em .6em .6em;
@@ -24,9 +25,10 @@ section {
 h2 {
 	position: absolute;
 	text-align: center;
+	font-size: 1.5em;
 	top: 0;
 	right: 0;
-	width: 30%;
+	width: 6em;
 	border: 1px solid black;
 }
 
@@ -52,7 +54,7 @@ h2 {
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.section1, .section2, .section3 {
 		width: 31%
 	}
@@ -60,7 +62,7 @@ h2 {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.section1, .section2 {
 		width: 48%;
 
@@ -68,6 +70,7 @@ h2 {
 	.section3 {
 		width: 98%;
 	}
+
 }
 
 
