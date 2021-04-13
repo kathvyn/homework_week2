@@ -10,13 +10,12 @@ div {
 }
 h1 {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 1.75em;
 	margin-top: 1em;
 
 }
 section {
 	position: relative;
-	font-size: 1.5em;
 	top: 30px;
 	border: 1px solid black;
 	padding: 2.2em .6em .6em .6em;
@@ -25,7 +24,7 @@ section {
 h2 {
 	position: absolute;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	top: 0;
 	right: 0;
 	width: 6em;
